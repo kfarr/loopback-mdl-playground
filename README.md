@@ -9,3 +9,6 @@ This repo gives the Loopback tutorial a "facelift" by restyling with the [Materi
 Here's a screenshot of the improved styling with Material Design Lite
 ![Screenshot](screenshot.png?raw=true "Screenshot")
 
+# Requirements
+
+Most of the dependencies can be found in the package.json file. However, you will also need to have local instances of MySQL and MongoDB setup and then modify appropriate Loopback/node database config settings to make this work. For more info on this, reference the original [Loopback coffee shop tutorial docs](https://docs.strongloop.com/display/public/LB/Introducing+the+Coffee+Shop+Reviews+app).
