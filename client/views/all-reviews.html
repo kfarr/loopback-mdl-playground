@@ -1,0 +1,17 @@
+<section>
+<ul class="demo-list-three mdl-list mdl-shadow--8dp" style="width: 650px; background: rgba(255, 255, 255, .9);">
+    <li class="mdl-list__item mdl-list__item--three-line" ng-repeat="r in reviews.slice().reverse()">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-icon">comment</i>
+        <span>{{r.coffeeShop.name}}</span>
+        <span class="mdl-list__item-text-body">
+          {{r.comments}}
+        </span>
+      </span>
+      <span class="mdl-list__item-secondary-content">
+        <a class="mdl-list__item-secondary-info">{{r.date | date}}</a>
+        <a class="mdl-list__item-secondary-action" href="#"><span ng-repeat="i in range(r.rating)"><i class="material-icons">star</i></span></a>
+      </span>
+    </li>
+</ul>
+</section>

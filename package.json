@@ -1,0 +1,39 @@
+{
+  "name": "loopback-getting-started",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node .",
+    "pretest": "jshint .",
+    "posttest": "nsp check"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "helmet": "^0.14.0",
+    "loopback": "^2.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^2.1.0",
+    "loopback-connector-mongodb": "^1.13.3",
+    "loopback-connector-mysql": "^2.2.0",
+    "loopback-datasource-juggler": "^2.39.0",
+    "material-design-lite": "^1.1.1",
+    "serve-favicon": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.2",
+    "jshint": "^2.9.1",
+    "nsp": "^2.1.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "description": "loopback-getting-started"
+}
